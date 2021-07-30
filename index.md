@@ -23,35 +23,9 @@
 ***
 
 ### 已适配的 GNU/Linux 发行版 <img src="./icon/linux.svg" width="16" height="16" alt="Linux Logo"/>
-<table>
-<tr>
-    <td rowspan="7"> 支持<br/>版本<br/>
-</tr>
-<tr>
-    <td><a href="https://www.debian.org"><img src="./icon/debian.svg" width="16" height="16"/></a>&nbsp;Debian</td>
-    <td align="center">8.0 ~ 10.10</td>
-</tr>
-<tr>
-    <td><a href="https://cn.ubuntu.com"><img src="./icon/ubuntu.svg" width="16" height="16"/></a>&nbsp;Ubuntu</td>
-    <td align="center">16.04 ~ 21.04</td>
-</tr>
-<tr>
-    <td><a href="https://www.kali.org"><img src="./icon/kali.svg" width="16" height="16"/></a>&nbsp;Kali Linux</td>
-    <td align="center">2.0 ~ 2021.2</td>
-</tr>
-<tr>
-    <td><a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="./icon/redhat.svg" width="16" height="16"/></a>&nbsp;RHEL</td>
-    <td align="center">7.0 ~ 8.4</td>
-</tr>
-<tr>
-    <td><a href="https://www.centos.org"><img src="./icon/centos.svg" width="16" height="16"/></a>&nbsp;CentOS</td>
-    <td align="center">7.0 ~ 8.4</td>
-</tr>
-<tr>
-    <td><a href="https://getfedora.org/zh_Hans_CN"><img src="./icon/fedora.ico" width="16" height="16"/></a>&nbsp;Fedora</td>
-    <td align="center">28 ~ 34</td>
-</tr>
-</table>
+|          |  <a href="https://www.debian.org"><img src="./icon/debian.svg" width="16" height="16"/></a>&nbsp;Debian  |  <a href="https://cn.ubuntu.com"><img src="./icon/ubuntu.svg" width="16" height="16"/></a>&nbsp;Ubuntu  |  <a href="https://www.kali.org"><img src="./icon/kali.svg" width="16" height="16"/></a>&nbsp;Kali Linux  |  <a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="./icon/redhat.svg" width="16" height="16"/></a>&nbsp;RHEL  |  <a href="https://www.centos.org"><img src="./icon/centos.svg" width="16" height="16"/></a>&nbsp;CentOS  |  <a href="https://getfedora.org/zh_Hans_CN"><img src="./icon/fedora.ico" width="16" height="16"/></a>&nbsp;Fedora  |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| 支持版本 | 8.0 ~ 10.10 | 16.04 ~ 21.04 | 2.0 ~ 2021.2 | 7.0 ~ 8.4 | 7.0 ~ 8.4 | 28 ~ 34 |
 
 > 目前仅支持上述基于 Debian 与 Redhat 系的发行版和及其部分衍生版本 \
 > 同样支持上述版本中拥有相同底层核心的其它发行版，例如 [`Armbian`](https://www.armbian.com) [`Kubuntu`](https://kubuntu.org) [`Oracle Linux`](https://www.oracle.com/cn/technical-resources) 等
@@ -127,14 +101,8 @@
 
 ***
 
-### 捐助作者
-<img src="./icon/thanks.jpg" width="250" height="250" alt="微信赞赏码"/><br/>
-
-***
-
 ### License
-> [GPL-2.0](https://github.com/SuperManito/LinuxMirrors/blob/main/LICENSE)
-
+Copyright © 2021, [SuperManito](https://github.com/SuperManito). Released under the [GPL-2.0](https://github.com/SuperManito/LinuxMirrors/blob/main/LICENSE).
 > 项目已设立开源许可协议，传播时需在显著位置标注来源和作者，请尊重本人的知识成果\
 > 建议通过命令直接调用脚本，如有意见与建议您可以提交至 __Issues__，谢谢
 
