@@ -23,12 +23,26 @@
 ***
 
 ### 已适配的 GNU/Linux 发行版 <img src="./icon/linux.svg" width="16" height="16" alt="Linux Logo"/>
-<a href="https://www.debian.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/debian.svg" width="40" height="40"/></a>&nbsp;Debian  8.0 ~ 10.10<br>
-<a href="https://cn.ubuntu.com"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/ubuntu.svg" width="40" height="40"/></a>&nbsp;Ubuntu  14.04 ~ 21.04<br>
-<a href="https://www.kali.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/kali.svg" width="40" height="40"/></a>&nbsp;Kali Linux  2.0 ~ 2021.2<br>
-<a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/redhat.svg" width="40" height="40"/></a>&nbsp;RHEL  7.0 ~ 8.4<br>
-<a href="https://www.centos.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/centos.svg" width="40" height="40"/></a>&nbsp;CentOS  7.0 ~ 8.4<br>
-<a href="https://getfedora.org/zh_Hans_CN"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/fedora.ico" width="40" height="40"/></a>&nbsp;Fedora  28 ~ 34<br>
+<table border="1">
+   <tr align="center">
+        <th>系统名称</th>
+        <th><a href="https://www.debian.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/debian.svg" width="20" height="20"/></a>&nbsp;Debian</th>
+        <th><a href="https://cn.ubuntu.com"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/ubuntu.svg" width="20" height="20"/></a>&nbsp;Ubuntu</th>
+        <th><a href="https://www.kali.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/kali.svg" width="20" height="20"/></a>&nbsp;Kali Linux</th>
+        <th><a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/redhat.svg" width="20" height="20"/></a>&nbsp;RHEL</th>
+        <th><a href="https://www.centos.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/centos.svg" width="20" height="20"/></a>&nbsp;CentOS</th>
+        <th><a href="https://getfedora.org/zh_Hans_CN"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/fedora.ico" width="20" height="20"/></a>&nbsp;Fedora</th>
+   </tr>
+   <tr align="center">
+        <td>支持版本</td>
+        <td>8.0 ~ 10.10</td>
+        <td>14.04 ~ 21.04</td>
+        <td>2.0 ~ 2021.2</td>
+        <td>7.0 ~ 8.4</td>
+        <td>7.0 ~ 8.4</td>
+        <td>28 ~ 34</td>
+    </tr>
+</table>
 
 > 目前仅支持上述基于 Debian 与 Redhat 系的发行版和及其部分衍生版本 \
 > 同样支持上述版本中拥有相同底层核心的其它发行版，例如 [`Armbian`](https://www.armbian.com) [`Kubuntu`](https://kubuntu.org) [`Oracle Linux`](https://www.oracle.com/cn/technical-resources) 等
@@ -132,8 +146,6 @@
         <td>√</td>
     </tr>
 </table>
-
-<td></td>
 
 > 所有镜像站均支持 `Debian` `Ubuntu` `CentOS` 软件源，建议优先选择由企业提供的软件源\
 > 如果使用过程中脚本不能正常输出中文内容则可对照此列表使用，顺序与脚本一致
