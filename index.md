@@ -195,11 +195,11 @@
 ### 常见问题与帮助
 - 如果提示 `Command 'curl' not found` 则说明当前未安装 `curl` 软件包，安装命令如下：
 
-         sudo apt install -y curl  或  sudo yum install -y curl
+      sudo apt install -y curl  或  sudo yum install -y curl
 
 - 如果提示 `Command 'wget' not found` 则说明当前未安装 `wget` 软件包，安装命令如下：
 
-         sudo apt install -y wget  或  sudo yum install -y wget
+      sudo apt install -y wget  或  sudo yum install -y wget
 
 - 如果提示 `bash: /proc/self/fd/11: No such file or directory`，请切换至 `Root` 用户执行。
 
