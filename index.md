@@ -23,27 +23,118 @@
 ***
 
 ### 已适配的 GNU/Linux 发行版 <img src="./icon/linux.svg" width="16" height="16" alt="Linux Logo"/>
-|          |  <a href="https://www.debian.org"><img src="./icon/debian.svg" width="16" height="16"/></a>&nbsp;Debian  |  <a href="https://cn.ubuntu.com"><img src="./icon/ubuntu.svg" width="16" height="16"/></a>&nbsp;Ubuntu  |  <a href="https://www.kali.org"><img src="./icon/kali.svg" width="16" height="16"/></a>&nbsp;Kali Linux  |  <a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="./icon/redhat.svg" width="16" height="16"/></a>&nbsp;RHEL  |  <a href="https://www.centos.org"><img src="./icon/centos.svg" width="16" height="16"/></a>&nbsp;CentOS  |  <a href="https://getfedora.org/zh_Hans_CN"><img src="./icon/fedora.ico" width="16" height="16"/></a>&nbsp;Fedora  |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 支持版本 | 8.0 ~ 10.10 | 16.04 ~ 21.04 | 2.0 ~ 2021.2 | 7.0 ~ 8.4 | 7.0 ~ 8.4 | 28 ~ 34 |
+<a href="https://www.debian.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/debian.svg" width="40" height="40"/></a>&nbsp;Debian  8.0 ~ 10.10<br>
+<a href="https://cn.ubuntu.com"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/ubuntu.svg" width="40" height="40"/></a>&nbsp;Ubuntu  14.04 ~ 21.04<br>
+<a href="https://www.kali.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/kali.svg" width="40" height="40"/></a>&nbsp;Kali Linux  2.0 ~ 2021.2<br>
+<a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/redhat.svg" width="40" height="40"/></a>&nbsp;RHEL  7.0 ~ 8.4<br>
+<a href="https://www.centos.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/centos.svg" width="40" height="40"/></a>&nbsp;CentOS  7.0 ~ 8.4<br>
+<a href="https://getfedora.org/zh_Hans_CN"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/fedora.ico" width="40" height="40"/></a>&nbsp;Fedora  28 ~ 34<br>
 
 > 目前仅支持上述基于 Debian 与 Redhat 系的发行版和及其部分衍生版本 \
 > 同样支持上述版本中拥有相同底层核心的其它发行版，例如 [`Armbian`](https://www.armbian.com) [`Kubuntu`](https://kubuntu.org) [`Oracle Linux`](https://www.oracle.com/cn/technical-resources) 等
 
 ### 脚本当前使用的开源镜像站
-| | 镜像站名称 | 镜像站地址 | IPv6 | Kali Linux | Fedora | EPEL |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
-| 1 | 阿里云 | [mirrors.aliyun.com](https://developer.aliyun.com/special/mirrors/notice) | √ | √ | √ | √ |
-| 2 | 腾讯云 | [mirrors.cloud.tencent.com](https://mirrors.cloud.tencent.com) | √ | √ | √ | √ |
-| 3 | 华为云 | [mirrors.huaweicloud.com](https://mirrors.huaweicloud.com) | √ | √ | √ | √ |
-| 4 | 网易 | [mirrors.163.com](https://mirrors.163.com) |  |  | √ |  |
-| 5 | 搜狐 | [mirrors.sohu.com](https://mirrors.sohu.com) |  |  |  |  |
-| 6 | 清华大学 | [mirrors.tuna.tsinghua.edu.cn](https://mirrors.tuna.tsinghua.edu.cn) | √ | √ | √ | √ |
-| 7 | 浙江大学 | [mirrors.zju.edu.cn](https://mirrors.zju.edu.cn) |  | √ | √ | √ |
-| 8 | 重庆大学 | [mirrors.cqu.edu.cn](https://mirrors.cqu.edu.cn) |  | √ | √ | √ |
-| 9 | 兰州大学 | [mirror.lzu.edu.cn](https://mirror.lzu.edu.cn) | √ |  | √ | √ |
-| 10 | 上海交通大学 | [ftp.sjtu.edu.cn](https://ftp.sjtu.edu.cn) | √ |  | √ |  |
-| 11 | 中国科学技术大学 | [mirrors.ustc.edu.cn](https://mirrors.ustc.edu.cn) | √ | √ | √ | √ |
+<table border="1">
+   <tr align="center">
+        <th>镜像站名称</th>
+        <th>镜像站地址</th>
+        <th>IPv6</th>
+        <th>Kali Linux</th>
+        <th>Fedora</th>
+        <th>EPEL</th>
+   </tr>
+   <tr align="center">
+        <td>阿里云</td>
+        <td><a href="https://developer.aliyun.com/special/mirrors/notice">mirrors.aliyun.com</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+   <tr align="center">
+        <td>腾讯云</td>
+        <td><a href="https://mirrors.cloud.tencent.com">mirrors.cloud.tencent.com</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>华为云</td>
+        <td><a href="https://mirrors.huaweicloud.com">mirrors.huaweicloud.com</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>网易</td>
+        <td><a href="https://mirrors.163.com">mirrors.163.com</a></td>
+        <td></td>
+        <td></td>
+        <td>√</td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td>搜狐</td>
+        <td><a href="https://mirrors.sohu.com">mirrors.sohu.com</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td>清华大学</td>
+        <td><a href="https://mirrors.tuna.tsinghua.edu.cn">mirrors.tuna.tsinghua.edu.cn</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>浙江大学</td>
+        <td><a href="https://mirrors.zju.edu.cn">mirrors.zju.edu.cn</a></td>
+        <td></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>重庆大学</td>
+        <td><a href="https://mirrors.cqu.edu.cn">mirrors.cqu.edu.cn</a></td>
+        <td></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>兰州大学</td>
+        <td><a href="https://mirror.lzu.edu.cn">mirror.lzu.edu.cn</a></td>
+        <td>√</td>
+        <td></td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>上海交通大学</td>
+        <td><a href="https://ftp.sjtu.edu.cn">ftp.sjtu.edu.cn</a></td>
+        <td>√</td>
+        <td></td>
+        <td>√</td>
+        <td></td>
+    </tr>
+    <tr align="center">
+        <td>中国科学技术大学</td>
+        <td><a href="https://mirrors.ustc.edu.cn">mirrors.ustc.edu.cn</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+</table>
+
+<td></td>
+
 > 所有镜像站均支持 `Debian` `Ubuntu` `CentOS` 软件源，建议优先选择由企业提供的软件源\
 > 如果使用过程中脚本不能正常输出中文内容则可对照此列表使用，顺序与脚本一致
 
@@ -70,6 +161,7 @@
 - `GNU/Linux` 一键更换国内软件源脚本
 
       bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)
+
 > __注意：__
 > - _Debian 系 Linux 默认注释了源码仓库和预发布软件源，若需启用可将 list 源文件中相关内容的所在行 `取消注释`。_
 > - _RedHat 系 Linux 配置了所有可以配置的仓库，但有一些仓库默认没有启用，若需启用可将 repo 源文件中的 `enabled=0`修改成 `enabled=1`。_
@@ -79,7 +171,7 @@
 ### 其它脚本
 - `Docker` 一键安装脚本
 
-      wget https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.x -O install.x && chmod +x install.x && ./install.x
+      bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)
 
 > `Docker CE`：Docker Community Edition 镜像仓库，用于下载并安装 Docker 相关软件包。\
 > `Docker Hub`：Docker Hub 镜像仓库，默认为官方提供的公共库，用于切换下载镜像时的来源仓库，简称镜像加速器。
