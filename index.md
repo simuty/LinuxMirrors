@@ -114,6 +114,14 @@
         <td>√</td>
     </tr>
     <tr align="center">
+        <td>南京大学</td>
+        <td><a href="https://mirrors.nju.edu.cn">mirrors.nju.edu.cn</a></td>
+        <td></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
         <td>重庆大学</td>
         <td><a href="https://mirrors.cqu.edu.cn">mirrors.cqu.edu.cn</a></td>
         <td></td>
@@ -131,11 +139,19 @@
     </tr>
     <tr align="center">
         <td>上海交通大学</td>
-        <td><a href="https://ftp.sjtu.edu.cn">ftp.sjtu.edu.cn</a></td>
+        <td><a href="https://mirror.sjtu.edu.cn">mirror.sjtu.edu.cn</a></td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+        <td>√</td>
+    </tr>
+    <tr align="center">
+        <td>哈尔滨工业大学</td>
+        <td><a href="https://mirrors.hit.edu.cn">mirrors.hit.edu.cn</a></td>
+        <td>√</td>
         <td>√</td>
         <td></td>
         <td>√</td>
-        <td></td>
     </tr>
     <tr align="center">
         <td>中国科学技术大学</td>
