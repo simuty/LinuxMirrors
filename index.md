@@ -29,7 +29,7 @@
         <th><a href="https://www.debian.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/debian.svg" width="20" height="20"/></a>&nbsp;Debian</th>
         <th><a href="https://cn.ubuntu.com"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/ubuntu.svg" width="20" height="20"/></a>&nbsp;Ubuntu</th>
         <th><a href="https://www.kali.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/kali.svg" width="20" height="20"/></a>&nbsp;Kali Linux</th>
-        <th><a href="https://www.redhat.com/zhtechnologies/linux-platforms/enterprise-linux"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/redhat.svg" width="20" height="20"/></a>&nbsp;RHEL</th>
+        <th><a href="https://access.redhat.com/products/red-hat-enterprise-linux"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/redhat.svg" width="20" height="20"/></a>&nbsp;RHEL</th>
         <th><a href="https://www.centos.org"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/centos.svg" width="20" height="20"/></a>&nbsp;CentOS</th>
         <th><a href="https://getfedora.org/zh_Hans_CN"><img src="https://gitee.com/SuperManito/LinuxMirrors/raw/main/icon/fedora.ico" width="20" height="20"/></a>&nbsp;Fedora</th>
    </tr>
@@ -37,10 +37,10 @@
         <td>支持版本</td>
         <td>8.0 ~ 11.1</td>
         <td>14.04 ~ 21.10</td>
-        <td>2.0 ~ 2021.3</td>
-        <td>7.0 ~ 8.4</td>
-        <td>7.0 ~ 8.4</td>
-        <td>28 ~ 34</td>
+        <td>2.0 ~ 2021.4</td>
+        <td>7.0 ~ 8.5</td>
+        <td>7.0 ~ 8.5</td>
+        <td>28 ~ 35</td>
     </tr>
 </table>
 
