@@ -227,5 +227,3 @@ Copyright © 2021, [SuperManito](https://github.com/SuperManito). Released under
 > 建议通过命令直接调用脚本，如有意见与建议您可以提交至 __Issues__，谢谢
 
 ***
-
-__如果您觉得这个项目不错的话可以在右上角给颗⭐吗？方便分享给更多的朋友吗？__
