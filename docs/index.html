@@ -15,16 +15,27 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      coverpage: true,
+      search: 'auto',
     }
   </script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 复制到剪贴板 -->
+  <script src="./utils/docsify-copy-code.min.js"></script>
+  <!-- Emoji支持 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 搜索 -->
+  <script src="./utils/search.js"></script>
+
   <script>
     if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
+      navigator.serviceWorker.register('./utils/sw.js')
     }
   </script>
+
 </body>
 
 </html>
